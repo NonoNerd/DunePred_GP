@@ -1,0 +1,13 @@
+name: GP_Dune-env
+channels:
+  - defaults
+dependencies:
+  - matplotlib=3.7.1
+  - numpy-base=1.24.3
+  - pandas=1.5.3
+  - scikit-learn=1.1.3
+  - scipy=1.10.0
+  - sympy=1.11.1
+  - pip:
+      - gplearn==0.4.2
+      - numpy==1.22.4+mkl
